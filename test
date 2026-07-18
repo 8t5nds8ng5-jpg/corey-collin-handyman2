@@ -1,0 +1,12 @@
+index.html
+style.css      (if you separate your CSS)
+script.js      (if you have JavaScript)
+
+images/
+    kitchen-after.jpg
+    kitchen-before.jpg
+    shower-dark.jpg
+    shower-white.jpg
+    fireplace.jpg
+    entertainment-wall.jpg
+    team.jpg
