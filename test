@@ -1,12 +1,187 @@
-index.html
-style.css      (if you separate your CSS)
-script.js      (if you have JavaScript)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corey & Collin Handyman Services</title>
 
-images/
-    kitchen-after.jpg
-    kitchen-before.jpg
-    shower-dark.jpg
-    shower-white.jpg
-    fireplace.jpg
-    entertainment-wall.jpg
-    team.jpg
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<h1>Corey & Collin</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h2>Quality Work You Can Trust</h2>
+
+<p>
+
+Kitchen Remodeling • Bathroom Remodeling • Tile • Water Heaters • Home Repairs
+
+</p>
+
+<a href="#contact" class="btn">Free Estimate</a>
+
+<a href="tel:8163832754" class="btn secondary">Call 816-383-2754</a>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="container">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Kitchen Remodeling</h3>
+<p>Beautiful kitchen renovations and upgrades.</p>
+</div>
+
+<div class="card">
+<h3>Bathroom Remodeling</h3>
+<p>Custom showers, tile, vanities and more.</p>
+</div>
+
+<div class="card">
+<h3>Water Heater Installation</h3>
+<p>Professional installation and replacement.</p>
+</div>
+
+<div class="card">
+<h3>Tile Installation</h3>
+<p>Floors, backsplashes and custom tile work.</p>
+</div>
+
+<div class="card">
+<h3>Carpentry</h3>
+<p>Trim, doors, shelving and custom projects.</p>
+</div>
+
+<div class="card">
+<h3>General Handyman</h3>
+<p>Reliable home repairs done right.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<div class="container">
+
+<h2>Recent Projects</h2>
+
+<div class="gallery">
+
+<img src="images/kitchen-after.jpg" alt="Kitchen">
+
+<img src="images/kitchen-before.jpg" alt="Kitchen Before">
+
+<img src="images/shower-dark.jpg" alt="Shower">
+
+<img src="images/fireplace.jpg" alt="Fireplace">
+
+<img src="images/shower-white.jpg" alt="Bathroom">
+
+<img src="images/entertainment-wall.jpg" alt="Entertainment Center">
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="container about">
+
+<div>
+
+<h2>About Us</h2>
+
+<p>
+
+Corey & Collin Handyman Services proudly serves St. Joseph, Missouri and surrounding communities. We specialize in remodeling, tile work, water heater installation, carpentry and dependable handyman services.
+
+</p>
+
+<p>
+
+We believe in honest pricing, quality craftsmanship and treating every home like our own.
+
+</p>
+
+</div>
+
+<img src="images/team.jpg" alt="Corey and Collin">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p>📞 816-383-2754</p>
+
+<p>Serving St. Joseph, Missouri & Surrounding Areas</p>
+
+<a href="tel:8163832754" class="btn">Call Now</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Corey & Collin Handyman Services
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
